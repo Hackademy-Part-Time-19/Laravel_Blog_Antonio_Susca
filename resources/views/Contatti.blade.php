@@ -8,14 +8,15 @@
 
 </head>
 
-<body>
-<div> 
-    <a href="/">Home</a>
-   <a href="/Articoli">Articoli</a>
+<body style="background-color: black">
+    <x-navbar>
+    </x-navbar>
+<div>
+
    </div>
  <div>
-   <h1>Chi sono</h1>
-    <p>{{$Descrizione}}</p>
+   <h1 style="color:rgb(190, 190, 190)" >Chi sono</h1>
+    <p style="color: rgb(190, 190, 190)">{{$Descrizione}}</p>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>

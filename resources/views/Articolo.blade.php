@@ -11,9 +11,7 @@
 </head>
 
 <body style="background-color: black">
-    <div>
-        <a href="/articoli">Articoli</a>
-    </div>
+
     <div class="container">
         <div class="row">
 
